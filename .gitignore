@@ -1,3 +1,9 @@
+.metadata/.plugins
+*.log
+.log
+history.index
+*/*.log
+
 # Prerequisites
 *.d
 

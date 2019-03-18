@@ -36,8 +36,7 @@
 static const char *TAG="APP";
 
 /* An HTTP GET handler */
-esp_err_t hello_get_handler(httpd_req_t *req)
-{
+esp_err_t hello_get_handler(httpd_req_t *req) {
     char*  buf;
     size_t buf_len;
 
@@ -120,15 +119,13 @@ httpd_uri_t hello = {
 };
 
 /* An HTTP POST handler */
-esp_err_t echo_post_handler(httpd_req_t *req)
-{
+esp_err_t echo_post_handler(httpd_req_t *req) {
     char buf[100];
     int ret, remaining = req->content_len;
 
     while (remaining > 0) {
         /* Read the data for the request */
-        if ((ret = httpd_req_recv(req, buf,
-                        MIN(remaining, sizeof(buf)))) <= 0) {
+        if ((ret = httpd_req_recv(req, buf, MIN(remaining, sizeof(buf)))) <= 0) {
             if (ret == HTTPD_SOCK_ERR_TIMEOUT) {
                 /* Retry receiving if timeout occurred */
                 continue;
@@ -178,8 +175,7 @@ esp_err_t ctrl_put_handler(httpd_req_t *req)
         ESP_LOGI(TAG, "Unregistering /hello and /echo URIs");
         httpd_unregister_uri(req->handle, "/hello");
         httpd_unregister_uri(req->handle, "/echo");
-    }
-    else {
+    } else {
         ESP_LOGI(TAG, "Registering /hello and /echo URIs");
         httpd_register_uri_handler(req->handle, &hello);
         httpd_register_uri_handler(req->handle, &echo);
@@ -211,10 +207,10 @@ httpd_handle_t start_webserver(void)
         httpd_register_uri_handler(server, &echo);
         httpd_register_uri_handler(server, &ctrl);
         return server;
+    } else {
+    	ESP_LOGI(TAG, "Error starting server!");
+    	return NULL;
     }
-
-    ESP_LOGI(TAG, "Error starting server!");
-    return NULL;
 }
 
 void stop_webserver(httpd_handle_t server)
