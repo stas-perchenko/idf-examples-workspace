@@ -19,7 +19,7 @@
 
 
 #include "sdkconfig.h"
-#include "esp_event.h"
+//#include "esp_event.h"  //The esp_event_loop.h do the thing
 #include "tcpip_adapter.h"
 
 /* A simple example that demonstrates how to create GET and POST
