@@ -1,0 +1,301 @@
+09:42:20 **** Build of configuration Default for project http-server-simple ****
+python C:/msys32/home/stanislav.perchenko/esp/esp-idf/tools/windows/eclipse_make.py -j5 app 
+Running make in 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple'
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/app_update/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bootloader/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bootloader_support/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/coap/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esptool_py/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mbedtls/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/nghttp/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/partition_table/Makefile.projbuild...
+including C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/ulp/Makefile.projbuild...
+Toolchain path: C:/msys32/opt/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+Toolchain version: crosstool-ng-1.22.0-80-g6c4433a5
+Compiler version: 5.2.0
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_trace -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/app_trace/component.mk COMPONENT_NAME=app_trace build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_update -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/app_update/component.mk COMPONENT_NAME=app_update build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/asio -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/asio/component.mk COMPONENT_NAME=asio build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/aws_iot -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/aws_iot/component.mk COMPONENT_NAME=aws_iot build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_trace'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_trace'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bootloader_support -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bootloader_support/component.mk COMPONENT_NAME=bootloader_support build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_update'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_update'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bt -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bt/component.mk COMPONENT_NAME=bt build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/aws_iot'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/aws_iot'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/coap -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/coap/component.mk COMPONENT_NAME=coap build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/console -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/console/component.mk COMPONENT_NAME=console build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/asio'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/asio'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/cxx -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/cxx/component.mk COMPONENT_NAME=cxx build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bt'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bt'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/driver -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/driver/component.mk COMPONENT_NAME=driver build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bootloader_support'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bootloader_support'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/console'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/cxx'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/coap'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/driver'
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp-tls -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp-tls/component.mk COMPONENT_NAME=esp-tls build
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/coap'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/cxx'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/console'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/driver'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp32 -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/component.mk COMPONENT_NAME=esp32 build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp-tls'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp-tls'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_adc_cal -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_adc_cal/component.mk COMPONENT_NAME=esp_adc_cal build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp32'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp32'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_event -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_event/component.mk COMPONENT_NAME=esp_event build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_adc_cal'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_adc_cal'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_client -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_http_client/component.mk COMPONENT_NAME=esp_http_client build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_event'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_event'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_server -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_http_server/component.mk COMPONENT_NAME=esp_http_server build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_client'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_client'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_https_ota -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_https_ota/component.mk COMPONENT_NAME=esp_https_ota build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_ringbuf -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_ringbuf/component.mk COMPONENT_NAME=esp_ringbuf build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ethernet -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/ethernet/component.mk COMPONENT_NAME=ethernet build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_https_ota'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_server'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_ringbuf'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_https_ota'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_ringbuf'
+make[1]: Nothing to be done for 'build'.
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/expat -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/expat/component.mk COMPONENT_NAME=expat build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ethernet'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_server'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ethernet'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/expat'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/fatfs -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/fatfs/component.mk COMPONENT_NAME=fatfs build
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/expat'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freemodbus -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/freemodbus/component.mk COMPONENT_NAME=freemodbus build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freertos -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/freertos/component.mk COMPONENT_NAME=freertos build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/fatfs'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freemodbus'
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/fatfs'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freemodbus'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/heap -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/heap/component.mk COMPONENT_NAME=heap build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freertos'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freertos'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/idf_test -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/idf_test/component.mk COMPONENT_NAME=idf_test build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/heap'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/heap'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/jsmn -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/jsmn/component.mk COMPONENT_NAME=jsmn build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/idf_test'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/idf_test'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/json -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/json/component.mk COMPONENT_NAME=json build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/libsodium -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/libsodium/component.mk COMPONENT_NAME=libsodium build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/jsmn'
+make[1]: Nothing to be done for 'build'.
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/json'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/jsmn'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/json'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/log -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/log/component.mk COMPONENT_NAME=log build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/libsodium'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/libsodium'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/lwip -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/component.mk COMPONENT_NAME=lwip build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/log'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/main -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/main/component.mk COMPONENT_NAME=main build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/lwip'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/log'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/lwip'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mbedtls -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mbedtls/component.mk COMPONENT_NAME=mbedtls build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/main'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mdns -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mdns/component.mk COMPONENT_NAME=mdns build
+xtensa-esp32-elf-gcc -std=gnu99 -Og -ggdb -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -mlongcalls -nostdlib -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-old-style-declaration -DESP_PLATFORM -D IDF_VER=\"v3.2-beta1-dirty\" -MMD -MP   -DGCC_NOT_5_2_0=0 -DWITH_POSIX -DMBEDTLS_CONFIG_FILE='"mbedtls/esp_config.h"' -DHAVE_CONFIG_H -I /home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/main/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/app_trace/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/app_update/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/asio/asio/asio/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/asio/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bootloader_support/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/bt/include -I /home/stmake[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mbedtls'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/micro-ecc -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/micro-ecc/component.mk COMPONENT_NAME=micro-ecc build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mdns'
+anislav.perchenko/esp/esp-idf/components/coap/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/coap/port/include/coap -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/coap/libcoap/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/coap/libcoap/include/coap -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/console -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/driver/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp-tls -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_adc_cal/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_event/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_http_client/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_http_server/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_https_ota/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp_ringbuf/include -I /home/stanislav.perchenko/esp/esp-idf/compomake[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mqtt -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mqtt/component.mk COMPONENT_NAME=mqtt build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/micro-ecc'
+nents/ethernet/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/expat/expat/expat/lib -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/expat/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/fatfs/src -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/freemodbus/modbus/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/freemodbus/modbus_controller -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/freertos/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/heap/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/idf_test/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/jsmn/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/json/cJSON -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/libsodium/port_include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/log/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/include/apps -make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mbedtls'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mdns'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mqtt'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mqtt'
+make[1]: Nothing to be done for 'build'.
+I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/lwip/src/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/port/esp32/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/port/esp32/include/arch -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/lwip/include_compat -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mbedtls/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mbedtls/mbedtls/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mdns/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/micro-ecc/micro-ecc -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/mqtt/esp-mqtt/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/newlib/platform_include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/newlib/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/nghttp/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/nghttp/nghttp2/lib/includes -I /home/stanislav.perchenko/esp/esp-idf/components/nvs_flash/inclumake[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/micro-ecc'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/newlib -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/newlib/component.mk COMPONENT_NAME=newlib build
+de -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/openssl/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protobuf-c/protobuf-c -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protocomm/include/common -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protocomm/include/security -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protocomm/include/transports -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/pthread/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/sdmmc/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/smartconfig_ack/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/soc/esp32/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/soc/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/spi_flash/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/spiffs/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/tcp_transport/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/tcpip_adapter/include -I /home/stanmake -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nghttp -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/nghttp/component.mk COMPONENT_NAME=nghttp build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/newlib'
+islav.perchenko/esp/esp-idf/components/ulp/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/vfs/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wear_levelling/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wifi_provisioning/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wpa_supplicant/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wpa_supplicant/port/include -I C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/xtensa-debug-module/include -I C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/include  -I . -c C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/main/main.c -o main.o
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/newlib'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nvs_flash -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/nvs_flash/component.mk COMPONENT_NAME=nvs_flash build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nghttp'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nghttp'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/openssl -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/openssl/component.mk COMPONENT_NAME=openssl build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protobuf-c -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protobuf-c/component.mk COMPONENT_NAME=protobuf-c build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protocomm -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/protocomm/component.mk COMPONENT_NAME=protocomm build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nvs_flash'
+make[1]: Nothing to be done for 'build'.
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protobuf-c'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/openssl'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protocomm'
+echo "C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/main/main.c" >> main.d
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nvs_flash'
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/openssl'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protobuf-c'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protocomm'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/pthread -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/pthread/component.mk COMPONENT_NAME=pthread build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/sdmmc -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/sdmmc/component.mk COMPONENT_NAME=sdmmc build
+rm -f libmain.a
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/pthread'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/pthread'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/smartconfig_ack -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/smartconfig_ack/component.mk COMPONENT_NAME=smartconfig_ack build
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/soc -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/soc/component.mk COMPONENT_NAME=soc build
+xtensa-esp32-elf-ar cru libmain.a main.o
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/sdmmc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/sdmmc'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/smartconfig_ack'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spi_flash -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/spi_flash/component.mk COMPONENT_NAME=spi_flash build
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/smartconfig_ack'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/soc'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spiffs -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/spiffs/component.mk COMPONENT_NAME=spiffs build
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/main'
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spi_flash'
+make[1]: Nothing to be done for 'build'.
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcp_transport -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/tcp_transport/component.mk COMPONENT_NAME=tcp_transport build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spiffs'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/soc'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spi_flash'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcpip_adapter -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/tcpip_adapter/component.mk COMPONENT_NAME=tcpip_adapter build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcp_transport'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spiffs'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcp_transport'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ulp -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/ulp/component.mk COMPONENT_NAME=ulp build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcpip_adapter'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcpip_adapter'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/vfs -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/vfs/component.mk COMPONENT_NAME=vfs build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ulp'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wear_levelling -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wear_levelling/component.mk COMPONENT_NAME=wear_levelling build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/vfs'
+make[1]: Nothing to be done for 'build'.
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ulp'
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/vfs'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wifi_provisioning -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wifi_provisioning/component.mk COMPONENT_NAME=wifi_provisioning build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wear_levelling'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wear_levelling'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wpa_supplicant -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/wpa_supplicant/component.mk COMPONENT_NAME=wpa_supplicant build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wifi_provisioning'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wifi_provisioning'
+make -C C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/xtensa-debug-module -f C:/msys32/home/stanislav.perchenko/esp/esp-idf/make/component_wrapper.mk COMPONENT_MAKEFILE=C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/xtensa-debug-module/component.mk COMPONENT_NAME=xtensa-debug-module build
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wpa_supplicant'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wpa_supplicant'
+python C:/msys32/home/stanislav.perchenko/esp/esp-idf/tools/check_python_dependencies.py
+make[1]: Entering directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/xtensa-debug-module'
+make[1]: Nothing to be done for 'build'.
+make[1]: Leaving directory 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/xtensa-debug-module'
+Target 'component-app_trace-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_trace/libapp_trace.a'
+Target 'component-app_update-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_update/libapp_update.a'
+Target 'component-asio-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/asio/libasio.a'
+Target 'component-aws_iot-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/aws_iot/libaws_iot.a'
+Target 'component-bootloader_support-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bootloader_support/libbootloader_support.a'
+Target 'component-bt-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bt/libbt.a'
+Target 'component-coap-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/coap/libcoap.a'
+Python requirements from C:/msys32/home/stanislav.perchenko/esp/esp-idf/requirements.txt are satisfied.
+Target 'component-console-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/console/libconsole.a'
+Target 'component-cxx-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/cxx/libcxx.a'
+Target 'component-driver-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/driver/libdriver.a'
+Target 'component-esp-tls-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp-tls/libesp-tls.a'
+Target 'component-esp32-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp32/libesp32.a'
+Target 'component-esp_adc_cal-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_adc_cal/libesp_adc_cal.a'
+Target 'component-esp_event-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_event/libesp_event.a'
+Target 'component-esp_http_client-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_client/libesp_http_client.a'
+Target 'component-esp_http_server-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_server/libesp_http_server.a'
+Target 'component-esp_https_ota-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_https_ota/libesp_https_ota.a'
+Target 'component-esp_ringbuf-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_ringbuf/libesp_ringbuf.a'
+Target 'component-ethernet-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ethernet/libethernet.a'
+Target 'component-expat-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/expat/libexpat.a'
+Target 'component-fatfs-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/fatfs/libfatfs.a'
+Target 'component-freemodbus-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freemodbus/libfreemodbus.a'
+Target 'component-freertos-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freertos/libfreertos.a'
+Target 'component-heap-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/heap/libheap.a'
+Target 'component-idf_test-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/idf_test/libidf_test.a'
+Target 'component-jsmn-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/jsmn/libjsmn.a'
+Target 'component-json-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/json/libjson.a'
+Target 'component-libsodium-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/libsodium/liblibsodium.a'
+Target 'component-log-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/log/liblog.a'
+Target 'component-lwip-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/lwip/liblwip.a'
+Target 'component-main-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/main/libmain.a'
+Target 'component-mbedtls-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mbedtls/libmbedtls.a'
+Target 'component-mdns-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mdns/libmdns.a'
+Target 'component-micro-ecc-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/micro-ecc/libmicro-ecc.a'
+Target 'component-mqtt-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mqtt/libmqtt.a'
+Target 'component-newlib-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/newlib/libnewlib.a'
+Target 'component-nghttp-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nghttp/libnghttp.a'
+Target 'component-nvs_flash-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nvs_flash/libnvs_flash.a'
+Target 'component-openssl-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/openssl/libopenssl.a'
+Target 'component-protobuf-c-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protobuf-c/libprotobuf-c.a'
+Target 'component-protocomm-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protocomm/libprotocomm.a'
+Target 'component-pthread-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/pthread/libpthread.a'
+Target 'component-sdmmc-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/sdmmc/libsdmmc.a'
+Target 'component-smartconfig_ack-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/smartconfig_ack/libsmartconfig_ack.a'
+Target 'component-soc-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/soc/libsoc.a'
+Target 'component-spi_flash-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spi_flash/libspi_flash.a'
+Target 'component-spiffs-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spiffs/libspiffs.a'
+Target 'component-tcp_transport-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcp_transport/libtcp_transport.a'
+Target 'component-tcpip_adapter-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcpip_adapter/libtcpip_adapter.a'
+Target 'component-ulp-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ulp/libulp.a'
+Target 'component-vfs-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/vfs/libvfs.a'
+Target 'component-wear_levelling-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wear_levelling/libwear_levelling.a'
+Target 'component-wifi_provisioning-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wifi_provisioning/libwifi_provisioning.a'
+Target 'component-wpa_supplicant-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wpa_supplicant/libwpa_supplicant.a'
+Target 'component-xtensa-debug-module-build' responsible for 'C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/xtensa-debug-module/libxtensa-debug-module.a'
+xtensa-esp32-elf-gcc -nostdlib -u call_user_start_cpu0  -Wl,--gc-sections -Wl,-static -Wl,--start-group  -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_trace -lapp_trace -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/app_update -lapp_update -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/asio -lasio -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/aws_iot  -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bootloader_support -lbootloader_support -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/bt -lbt -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/coap -lcoap -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/console -lconsole -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/cxx -lcxx -u __cxa_guard_dummy -u __cxx_fatal_exception -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/driver -ldriver -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp-tls -lesp-tls -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp32 -lesp32 C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/libhal.a -LC:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/lib -lcore -lrtc -lnet80211 -lpp -lwpa -lsmartconfig -lcoexist -lwps -lwpa2 -lespnow -lphy -lmesh -L C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esp32/ld -T esp32_out.ld -u ld_include_panic_highint_hdl -T esp32.common.ld -T esp32.rom.ld -T esp32.peripherals.ld -T esp32.rom.libgcc.ld -T esp32.rom.spiram_incompatible_fns.ld -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_adc_cal -lesp_adc_cal -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_event -lesp_event -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_client -lesp_http_client -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_http_server -lesp_http_server -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_https_ota -lesp_https_ota -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/esp_ringbuf -lesp_ringbuf -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ethernet -lethernet -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/expat -lexpat -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/fatfs -lfatfs -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freemodbus -lfreemodbus -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/freertos -lfreertos -Wl,--undefined=uxTopUsedPriority -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/heap -lheap -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/idf_test -lidf_test -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/jsmn -ljsmn -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/json -ljson -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/libsodium -llibsodium -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/log -llog -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/lwip -llwip -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/main -lmain -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mbedtls -lmbedtls -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mdns -lmdns -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/micro-ecc -lmicro-ecc -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/mqtt -lmqtt -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/newlib C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/newlib/lib/libc.a C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/newlib/lib/libm.a -lnewlib -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nghttp -lnghttp -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/nvs_flash -lnvs_flash -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/openssl -lopenssl -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protobuf-c -lprotobuf-c -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/protocomm -lprotocomm -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/pthread -lpthread -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/sdmmc -lsdmmc -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/smartconfig_ack -lsmartconfig_ack -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/soc -lsoc -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spi_flash -lspi_flash -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/spiffs -lspiffs -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcp_transport -ltcp_transport -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/tcpip_adapter -ltcpip_adapter -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/ulp -lulp -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/vfs -lvfs -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wear_levelling -lwear_levelling -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wifi_provisioning -lwifi_provisioning -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/wpa_supplicant -lwpa_supplicant -LC:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/xtensa-debug-module -lxtensa-debug-module -lgcc -lstdc++ -lgcov -Wl,--end-group -Wl,-EL -o C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/http-server-simple.elf -Wl,-Map=C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/http-server-simple.map
+python C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode "dio" --flash_freq "40m" --flash_size "2MB"  -o C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/http-server-simple.bin C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/http-server-simple.elf
+esptool.py v2.6-beta1
+App built. Default flash app command is:
+python C:/msys32/home/stanislav.perchenko/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port COM6 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x10000 C:/msys32/home/stanislav.perchenko/esp/idf-examples-workspace/http-server-simple/build/http-server-simple.bin
